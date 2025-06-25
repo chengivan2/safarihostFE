@@ -1,5 +1,5 @@
 import CTA from '@/components/CTA'
-import Footer2 from '@/components/Footer/Footer2'
+import Footer from '@/components/Footer/Footer'
 
 import Testimonial from '@/components/Testimonial'
 import TopBanner from '@/components/TopNav/TopBanner'
@@ -26,7 +26,7 @@ const Hosting = () => {
         <Testimonial />
         <CTA />
       </main>
-      <Footer2 />
+      <Footer />
     </>
   )
 }

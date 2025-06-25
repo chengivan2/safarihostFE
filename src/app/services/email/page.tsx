@@ -1,7 +1,7 @@
 
 import CTA from '@/components/CTA'
 import Faq from '@/components/Faq'
-import Footer2 from '@/components/Footer/Footer2'
+import Footer from '@/components/Footer/Footer'
 import Hosting from '@/components/Hosting'
 
 import OurFeatures from '@/components/OurFeatures'
@@ -32,7 +32,7 @@ const Email = () => {
         <div className="space100" />
         <CTA />
       </main>
-      <Footer2 />
+      <Footer />
     </>
   )
 }

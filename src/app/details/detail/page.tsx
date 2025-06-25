@@ -1,5 +1,5 @@
 
-import Footer2 from '@/components/Footer/Footer2'
+import Footer from '@/components/Footer/Footer'
 import Hero from '@/components/Hero'
 
 import TopBanner from '@/components/TopNav/TopBanner'
@@ -23,7 +23,7 @@ const Detail = () => {
         <Blog />
         <MoreBlog />
       </main>
-      <Footer2 />
+      <Footer />
     </>
   )
 }

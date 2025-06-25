@@ -1,4 +1,4 @@
-import Footer2 from '@/components/Footer/Footer2'
+import Footer from '@/components/Footer/Footer'
 
 import TopBanner from '@/components/TopNav/TopBanner'
 import TopNavBar1 from '@/components/TopNav/TopNavBar1'
@@ -17,7 +17,7 @@ const ErrorPage = () => {
       <main>
         <Error />
       </main>
-      <Footer2 />
+      <Footer />
     </>
   )
 }

@@ -1,5 +1,4 @@
 'use client'
-import HeaderImage from '@/assets/img/logo/header-logo6.png'
 import Image from 'next/image'
 import Link from 'next/link'
 import { Col, Container, Form, Row } from 'react-bootstrap'
@@ -9,7 +8,7 @@ import CopyRight from './components/CopyRight'
 import QuickLink from './components/QuickLink'
 import UseFulLink from './components/UseFulLink'
 
-const Footer2 = () => {
+const Footer = () => {
   return (
     <>
       <footer className="vl-footer-area6 bg-cover">
@@ -20,7 +19,7 @@ const Footer2 = () => {
                 <div className="vl-footer-widget mb-50">
                   <div className="vl-footer-logo black-logo">
                     <Link href="/">
-                      <Image src={HeaderImage} alt="" />
+                      <Image src="/safarihostlogonobg.png" width={80} height={80} alt="SafariHost logo" />
                     </Link>
                   </div>
                   <div className="vl-footer-text heading1 mt-16">
@@ -79,4 +78,4 @@ const Footer2 = () => {
   )
 }
 
-export default Footer2
+export default Footer

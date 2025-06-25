@@ -3,7 +3,7 @@ import Count from '@/components/Count'
 import CTA from '@/components/CTA'
 import Faq from '@/components/Faq'
 import Features from '@/components/Features'
-import Footer2 from '@/components/Footer/Footer2'
+import Footer from '@/components/Footer/Footer'
 import Hosting from '@/components/Hosting'
 
 import Testimonial from '@/components/Testimonial'
@@ -34,7 +34,7 @@ const VIPHosting = () => {
         <div className="space100" />
         <CTA />
       </main>
-      <Footer2 />
+      <Footer />
     </>
   )
 }

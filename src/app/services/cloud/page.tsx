@@ -1,7 +1,7 @@
 import Count from '@/components/Count'
 import CTA from '@/components/CTA'
 import Faq from '@/components/Faq'
-import Footer2 from '@/components/Footer/Footer2'
+import Footer from '@/components/Footer/Footer'
 
 import Testimonial from '@/components/Testimonial'
 import TopBanner from '@/components/TopNav/TopBanner'
@@ -31,7 +31,7 @@ const page = () => {
         <Faq />
         <CTA />
       </main>
-      <Footer2 />
+      <Footer />
     </>
   )
 }

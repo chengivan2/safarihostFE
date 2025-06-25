@@ -3,7 +3,7 @@ import Choose from '@/components/Choose'
 import Count from '@/components/Count'
 import CTA from '@/components/CTA'
 import Faq from '@/components/Faq'
-import Footer2 from '@/components/Footer/Footer2'
+import Footer from '@/components/Footer/Footer'
 
 import PricingPlan from '@/components/PricingPlan'
 import Testimonial from '@/components/Testimonial'
@@ -35,7 +35,7 @@ const WordPress = () => {
         <div className="space100" />
         <CTA />
       </main>
-      <Footer2 />
+      <Footer />
     </>
   )
 }

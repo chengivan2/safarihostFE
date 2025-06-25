@@ -2,7 +2,7 @@
 import CTA from '@/components/CTA'
 import Faq from '@/components/Faq'
 import Features from '@/components/Features'
-import Footer2 from '@/components/Footer/Footer2'
+import Footer from '@/components/Footer/Footer'
 
 import OurFeatures from '@/components/OurFeatures'
 import PricingPlan from '@/components/PricingPlan'
@@ -31,7 +31,7 @@ const Dedicated = () => {
         <Faq />
         <CTA />
       </main>
-      <Footer2 />
+      <Footer />
     </>
   )
 }

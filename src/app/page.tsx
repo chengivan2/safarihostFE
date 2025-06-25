@@ -1,5 +1,5 @@
 import logo from '@/assets/img/logo/title6.svg'
-import Footer2 from '@/components/Footer/Footer2'
+import Footer from '@/components/Footer/Footer'
 import TopNavBar2 from '@/components/TopNav/TopNavBar2'
 import {Metadata} from 'next'
 import About from './homecomponents/components/About'
@@ -33,7 +33,7 @@ const Hosting02 = () => {
                     <Blog/>
                     <CTA/>
                 </main>
-                <Footer2 />
+                <Footer />
             </div>
         </>
     )
