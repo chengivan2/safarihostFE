@@ -4,13 +4,13 @@ import { Metadata } from 'next'
 import Image from 'next/image'
 import Link from 'next/link'
 import { Col, Container, Row } from 'react-bootstrap'
-import { FaAngleRight } from 'react-icons/fa'
 import Form from './components/Form'
 
 export const metadata: Metadata = {
-  title: 'SafariHost- Sign Up',
+  title: 'SafariHost - Sign Up',
+  description: 'Create your account on SafariHost to start hosting and managing your projects with ease.',
 }
-const SignIn = () => {
+const SignUp = () => {
   return (
     <>
       <main>
@@ -39,4 +39,4 @@ const SignIn = () => {
   )
 }
 
-export default SignIn
+export default SignUp

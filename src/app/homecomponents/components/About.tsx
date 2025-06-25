@@ -1,5 +1,4 @@
 'use client'
-import Span6 from '@/assets/img/icons/span6.svg'
 import About06 from '@/assets/img/images/about6-image.png'
 import About6 from '@/assets/img/shapes/about6-bg-shape.png'
 import Image from 'next/image'

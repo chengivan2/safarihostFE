@@ -4,7 +4,6 @@ import { Metadata } from 'next'
 import Image from 'next/image'
 import Link from 'next/link'
 import { Col, Container, Row } from 'react-bootstrap'
-import { FaAngleRight } from 'react-icons/fa'
 import LoginForm from './components/LoginForm'
 
 export const metadata: Metadata = {

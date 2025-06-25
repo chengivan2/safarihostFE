@@ -1,6 +1,5 @@
 'use client'
 import { testimonial } from '@/assets/data/other'
-import Span6 from '@/assets/img/icons/span6.svg'
 import tes2 from '@/assets/img/testimonial/tes2-smoll-image.png'
 import Tes6 from '@/assets/img/testimonial/tes6-image.png'
 import Image from 'next/image'

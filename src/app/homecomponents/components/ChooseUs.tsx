@@ -1,5 +1,4 @@
 'use client'
-import Span6 from '@/assets/img/icons/span6.svg'
 import Chooses6 from '@/assets/img/images/choose6-image.png'
 import Shapeimg from '@/assets/img/shapes/choose6-image-shape.png'
 import Image from 'next/image'

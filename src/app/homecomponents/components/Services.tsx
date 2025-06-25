@@ -1,5 +1,4 @@
 'use client'
-import Span6 from '@/assets/img/icons/span6.svg'
 import Image from 'next/image'
 import Link from 'next/link'
 import { Col, Container, Row } from 'react-bootstrap'
