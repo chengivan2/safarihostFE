@@ -11,7 +11,7 @@ const PricingPlan = () => {
         <div className="container">
           <Row>
             <Col lg={12}>
-              <div className="compear-table" data-aos="fade-up" data-aos-duration={900} data-aos-delay={300}>
+              <div className="compear-table aos-init" data-aos="fade-up" data-aos-duration={900} data-aos-delay={300}>
                 <div className="comparison">
                   <table>
                     <thead>

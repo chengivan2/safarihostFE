@@ -31,7 +31,7 @@ const MobilMenu = ({ isOpen, toggle }: MenuToggle) => {
               </Link>
             </div>
             <div className="vl-offcanvas-close">
-              <button className="vl-offcanvas-close-toggle" onClick={toggle}>
+              <button title="Close mobile menu" className="vl-offcanvas-close-toggle" onClick={toggle}>
                 <FaXmark className="fa-solid" />
               </button>
             </div>

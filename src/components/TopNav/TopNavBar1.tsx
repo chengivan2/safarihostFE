@@ -4,7 +4,7 @@ import useToggle from '@/hook/useToggle'
 import Image from 'next/image'
 import Link from 'next/link'
 import { Col, Container, Row } from 'react-bootstrap'
-import { FaBarsStaggered, FaChevronDown } from 'react-icons/fa6'
+import { FaBarsStaggered } from 'react-icons/fa6'
 import MobilMenu from '../MobilMenu'
 import ServicesMenu from './AppMenu/ServicesMenu'
 
@@ -23,7 +23,7 @@ const TopNavBar1 = () => {
               <Col lg={2} md={6} xs={6}>
                 <div className="vl-logo">
                   <Link href="/" className="header1-logo-block">
-                    <Image src="/safarihostlogonobg" alt="SafariHost logo" />
+                    <Image src="/safarihostlogonobg.png" width={80} height={80} alt="SafariHost logo" />
                   </Link>
                 </div>
               </Col>
@@ -38,7 +38,7 @@ const TopNavBar1 = () => {
                       </li>
                       <ServicesMenu />
                       <li>
-                        <Link href="/about">
+                        <Link href="/about-us">
                           About Us
                         </Link>                        
                       </li>

@@ -10,9 +10,9 @@ import { FaArrowRight } from 'react-icons/fa'
 const Hero = () => {
   return (
     <>
-      <div className="inner-hero1 pt-60">
+      <div className="hero6">
         <Container>
-          <Row className="align-items-center">
+          <Row className="align-items-center -mt-60 md:mt-0 sm:mt-0">
             <Col lg={5}>
               <div className="main-heading6">
                 <h1 className="text-anime-style-3">Achieve More with the Power of Cloud Hosting</h1>

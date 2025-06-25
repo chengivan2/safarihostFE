@@ -1,5 +1,5 @@
 import Footer from "@/components/Footer/Footer";
-import TopNavBar1 from "@/components/TopNav/TopNavBar1";
+import TopNavBar2 from "@/components/TopNav/TopNavBar2";
 
 import { Metadata } from "next";
 import About from "./homecomponents/components/About";
@@ -21,7 +21,7 @@ const Hosting02 = () => {
   return (
     <>
       <TopBanner />
-      <TopNavBar1 />
+      <TopNavBar2 />
       <main>
         <Hero />
         <DomainArea />

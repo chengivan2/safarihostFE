@@ -9,7 +9,6 @@ import Demo6 from '@/assets/img/demo/demo6.jpg'
 import Demo7 from '@/assets/img/demo/demo7.jpg'
 import Demo8 from '@/assets/img/demo/demo8.jpg'
 import Demo9 from '@/assets/img/demo/demo9.jpg'
-import HeaderLogo from '@/assets/img/logo/header-logo6.png'
 import useScrollEvent from '@/hook/useScrollEvent'
 import useToggle from '@/hook/useToggle'
 import Image from 'next/image'
@@ -44,187 +43,17 @@ const TopNavBar2 = () => {
                   <nav className="vl-mobile-menu-active">
                     <ul>
                       <li className="has-dropdown">
-                        <Link href="#">
+                        <Link href="/">
                           Home
-                          <span>
-                            <FaChevronDown
-                              className="fa-regular" size={15}
-                              style={{ marginBottom: "8px", marginLeft: "4px" }}
-                            />
-                          </span>
                         </Link>
-                        <div className="vl-mega-menu">
-                          <div className="vl-home-menu">
-                            <Row className="gx-3 row-cols-1 row-cols-md-1 row-cols-lg-5">
-                              <Col>
-                                <div className="vl-home-thumb">
-                                  <div className="img1">
-                                    <Image src={Demo1} alt="" />
-                                  </div>
-                                  <Link className="text" href="/home/hosting-01">
-                                    Web Hositng 01
-                                  </Link>
-                                  <div className="btn-area1">
-                                    <Link href="/" className="theme-btn13" data-wow-duration="0.8s">
-                                      View Page <span />
-                                    </Link>
-                                  </div>
-                                  <div className="space20 d-lg-none d-block" />
-                                </div>
-                              </Col>
-                              <Col>
-                                <div className="vl-home-thumb">
-                                  <div className="img1">
-                                    <Image src={Demo2} alt="" />
-                                  </div>
-                                  <Link className="text" href="/home/hosting-02">
-                                    Cloud Hosting 02
-                                  </Link>
-                                  <div className="btn-area1">
-                                    <Link href="/home/hosting-02" className="theme-btn13" data-wow-duration="0.8s">
-                                      View Page <span />
-                                    </Link>
-                                  </div>
-                                  <div className="space20 d-lg-none d-block" />
-                                </div>
-                              </Col>
-                              <Col>
-                                <div className="vl-home-thumb">
-                                  <div className="img1">
-                                    <Image src={Demo3} alt="" />
-                                  </div>
-                                  <Link className="text" href="/home/hosting-03">
-                                    VPS Hosting 03
-                                  </Link>
-                                  <div className="btn-area1">
-                                    <Link href="/home/hosting-03" className="theme-btn13" data-wow-duration="0.8s">
-                                      View Page <span />
-                                    </Link>
-                                  </div>
-                                  <div className="space20 d-lg-none d-block" />
-                                </div>
-                              </Col>
-                              <Col>
-                                <div className="vl-home-thumb">
-                                  <div className="img1">
-                                    <Image src={Demo4} alt="" />
-                                  </div>
-                                  <Link className="text" href="/home/hosting-04">
-                                    Web Hositng 04
-                                  </Link>
-                                  <div className="btn-area1">
-                                    <Link href="/home/hosting-04" className="theme-btn13" data-wow-duration="0.8s">
-                                      View Page <span />
-                                    </Link>
-                                  </div>
-                                  <div className="space20 d-lg-none d-block" />
-                                </div>
-                              </Col>
-                              <Col>
-                                <div className="vl-home-thumb">
-                                  <div className="img1">
-                                    <Image src={Demo5} alt="" />
-                                  </div>
-                                  <Link className="text" href="/home/hosting-05">
-                                    Web Hositng 05
-                                  </Link>
-                                  <div className="btn-area1">
-                                    <Link href="/home/hosting-05" className="theme-btn13" data-wow-duration="0.8s">
-                                      View Page <span />
-                                    </Link>
-                                  </div>
-                                </div>
-                              </Col>
-                            </Row>
-                          </div>
-                          <div className="vl-home-menu">
-                            <Row className="gx-3 row-cols-1 row-cols-md-1 row-cols-lg-5">
-                              <Col>
-                                <div className="vl-home-thumb mt-20">
-                                  <div className="img1">
-                                    <Image src={Demo6} alt="" />
-                                  </div>
-                                  <Link className="text" href="/home/hosting-06">
-                                    Web Hositng 06
-                                  </Link>
-                                  <div className="btn-area1">
-                                    <Link href="/home/hosting-06" className="theme-btn13" data-wow-duration="0.8s">
-                                      View Page <span />
-                                    </Link>
-                                  </div>
-                                  <div className="space20 d-lg-none d-block" />
-                                </div>
-                              </Col>
-                              <Col>
-                                <div className="vl-home-thumb mt-20">
-                                  <div className="img1">
-                                    <Image src={Demo7} alt="" />
-                                  </div>
-                                  <Link className="text" href="/home/hosting-07">
-                                    WordPress Hosting 07
-                                  </Link>
-                                  <div className="btn-area1">
-                                    <Link href="/home/hosting-07" className="theme-btn13" data-wow-duration="0.8s">
-                                      View Page <span />
-                                    </Link>
-                                  </div>
-                                  <div className="space20 d-lg-none d-block" />
-                                </div>
-                              </Col>
-                              <Col>
-                                <div className="vl-home-thumb mt-20">
-                                  <div className="img1">
-                                    <Image src={Demo8} alt="" />
-                                  </div>
-                                  <Link className="text" href="/home/hosting-08">
-                                    Shared Hosting 08
-                                  </Link>
-                                  <div className="btn-area1">
-                                    <Link href="/home/hosting-08" className="theme-btn13" data-wow-duration="0.8s">
-                                      View Page <span />
-                                    </Link>
-                                  </div>
-                                  <div className="space20 d-lg-none d-block" />
-                                </div>
-                              </Col>
-                              <Col>
-                                <div className="vl-home-thumb mt-20">
-                                  <div className="img1">
-                                    <Image src={Demo9} alt="" />
-                                  </div>
-                                  <Link className="text" href="/home/hosting-09">
-                                    Shared Hosting 09
-                                  </Link>
-                                  <div className="btn-area1">
-                                    <Link href="/home/hosting-09" className="theme-btn13" data-wow-duration="0.8s">
-                                      View Page <span />
-                                    </Link>
-                                  </div>
-                                  <div className="space20 d-lg-none d-block" />
-                                </div>
-                              </Col>
-                              <Col>
-                                <div className="vl-home-thumb mt-20">
-                                  <div className="img1">
-                                    <Image src={Demo10} alt="" />
-                                  </div>
-                                  <Link className="text" href="/home/hosting-10">
-                                    Shared Hosting 10
-                                  </Link>
-                                  <div className="btn-area1">
-                                    <Link href="/home/hosting-10" className="theme-btn13" data-wow-duration="0.8s">
-                                      View Page <span />
-                                    </Link>
-                                  </div>
-                                </div>
-                              </Col>
-                            </Row>
-                          </div>
-                        </div>
+                       
                       </li>
-                      <PagesMenu />
                       <ServicesMenu />
-                      <BlogMenu />
+                      <li>
+                        <Link href="/about-us">
+                          About Us
+                        </Link>
+                      </li>
                       <li>
                         <Link href="/contact">Contact</Link>
                       </li>
