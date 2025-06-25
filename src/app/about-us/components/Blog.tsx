@@ -14,9 +14,6 @@ const Blog = () => {
           <Row>
             <Col lg={6} className="m-auto text-center">
               <div className="heading1">
-                <span className="sub-title" data-aos="zoom-in-left" data-aos-duration={800}>
-                  our blog &amp; news
-                </span>
                 <h2 className="text-anime-style-3">Latest Insights &amp; News</h2>
               </div>
             </Col>

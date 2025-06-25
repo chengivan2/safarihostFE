@@ -36,15 +36,12 @@ const About = () => {
             </Col>
             <Col lg={6}>
               <div className="heading1 ml-40 sm:ml-0 md:ml-0">
-                <span className="sub-title" data-aos="zoom-in-left" data-aos-duration={800}>
-                  About SafariHost hosting
-                </span>
                 <h2 className="text-anime-style-3">About SafariHost hosting</h2>
-                <p data-aos="fade-left" data-aos-duration={900} className="mt-16">
+                <p data-aos="fade-left" data-aos-duration={900} className="mt-16 aos-init aos-animate">
                   We're more than web hosting provider—we're your partner in online success. Founded with a passion for technology and a commitment
                   customer satisfaction, we've built a reputation.
                 </p>
-                <div className="circle-progress-area1" data-aos="fade-left" data-aos-duration={1100}>
+                <div className="circle-progress-area1 aos-init aos-animate" data-aos="fade-left" data-aos-duration={1100}>
                   <Row>
                     <Col lg={3} md={6}>
                       <div className="progresbar">
@@ -103,7 +100,7 @@ const About = () => {
                     <Col lg={3}></Col>
                   </Row>
                 </div>
-                <div className="button mt-10" data-aos-duration={800} data-aos="fade-left">
+                <div className="button mt-10 aos-init aos-animate" data-aos-duration={800} data-aos="fade-left">
                   <Link href="/domain" className="theme-btn1 btn_theme_active1 mt_40 wow fadeInDown" data-wow-duration="0.8s">
                     Launch your website <span />
                   </Link>

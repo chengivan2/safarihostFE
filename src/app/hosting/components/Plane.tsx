@@ -14,9 +14,6 @@ const Plane = () => {
           <Row>
             <Col lg={5} className="m-auto text-center">
               <div className="heading1">
-                <span data-aos="zoom-in-left" data-aos-duration={800} className="sub-title">
-                  Pricing plan
-                </span>
                 <h2 className="text-anime-style-3">Select Your Best Plan</h2>
               </div>
             </Col>

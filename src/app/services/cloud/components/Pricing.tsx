@@ -12,9 +12,6 @@ const Pricing = () => {
           <Row>
             <Col lg={6} className=" m-auto text-center">
               <div className="heading1">
-                <span className="sub-title" data-aos="zoom-in-left" data-aos-duration={800}>
-                  pricing plan
-                </span>
                 <h2 className="text-anime-style-3">Choose Your Perfect Plan</h2>
               </div>
             </Col>

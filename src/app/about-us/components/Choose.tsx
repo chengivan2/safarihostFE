@@ -20,7 +20,7 @@ const Choose = () => {
           </Row>
           <Row className="mt-30">
             {choose.map((item, idx) => (
-              <Col lg={4} md={6} key={idx} className="mt-30" data-aos="fade-up" data-aos-duration={item.number}>
+              <Col lg={4} md={6} key={idx} className="mt-30 aos-init aos-animate" data-aos="fade-up" data-aos-duration={item.number}>
                 <div className="work1-box text-center">
                   <div className="icon">
                     <Image src={item.image} alt="Image" />

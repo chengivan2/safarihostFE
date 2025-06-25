@@ -13,17 +13,6 @@ const Hero = () => {
             <div className="col-md-5">
               <div className="main-heading1">
                 <h1>Pricing Plan</h1>
-                <div className="breadcrumbs-pages">
-                  <ul>
-                    <li>
-                      <a href="/">Home</a>
-                    </li>
-                    <li className="angle">
-                      <FaAngleRight className="fa-solid fa-angle-right" />
-                    </li>
-                    <li>Pricing Plan</li>
-                  </ul>
-                </div>
               </div>
             </div>
             <div className="col-md-7">

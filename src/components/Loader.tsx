@@ -1,4 +1,3 @@
-import Preloader from '@/assets/img/logo/preloader-icon1.png'
 import Image from 'next/image'
 
 const Loader = () => {
@@ -8,7 +7,7 @@ const Loader = () => {
                 <div className="loading-container">
                     <div className="loading"/>
                     <div id="loading-icon">
-                        <Image className="main-load" src={Preloader} alt=""/>
+                        <Image className="main-load" src="/safarihostlogonobg.png" width={100} height={100} alt="SafariHost logo"/>
                     </div>
                 </div>
             </div>

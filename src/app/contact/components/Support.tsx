@@ -14,7 +14,6 @@ const Support = () => {
           <Row>
             <Col lg={9} className="m-auto">
               <div className="heading1 text-center">
-                <span className="sub-title">Our Support</span>
                 <h2>Our Premium Support</h2>
               </div>
               <div className="contact-page-boxs">

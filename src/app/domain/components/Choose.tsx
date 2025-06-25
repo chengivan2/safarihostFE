@@ -25,7 +25,6 @@ const Choose = () => {
             </Col>
             <Col lg={5}>
               <div className="heading1">
-                <span className="sub-title">best domain choose</span>
                 <h2>The Reasons Behind Best Choosing To Our Hosting</h2>
                 <div className="space10" />
                 <div className="domain-choose-box">

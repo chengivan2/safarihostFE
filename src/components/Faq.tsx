@@ -19,7 +19,6 @@ const Faq = () => {
           <Row>
             <Col lg={6} className="m-auto text-center">
               <div className="heading1">
-                <span className="sub-title">Frequently asked Question</span>
                 <h2>(VPS) Based FAQ Question</h2>
               </div>
             </Col>

@@ -14,9 +14,6 @@ const Features = () => {
           <Row className="align-items-center">
             <Col lg={5}>
               <div className="heading1">
-                <span className="sub-title" data-aos="zoom-in-left" data-aos-duration={800}>
-                  service benefits
-                </span>
                 <h2 className="text-anime-style-3">SafariHost Service Benefits</h2>
                 <p className="mt-16" data-aos="fade-right" data-aos-duration={900}>
                   At SafariHost, your website's security is our top priority. Features provide robust security features designed to protect your data and

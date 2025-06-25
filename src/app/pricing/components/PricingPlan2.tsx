@@ -7,9 +7,6 @@ const PricingPlan2 = () => {
           <div className="row">
             <div className="col-lg-6 m-auto text-center">
               <div className="heading1">
-                <span className="sub-title" data-aos="fade-left" data-aos-duration={800}>
-                  PRICING PLAN
-                </span>
                 <h2 className="text-anime-style-3">Flexible Pricing Plan For You</h2>
               </div>
             </div>
@@ -26,7 +23,7 @@ const PricingPlan2 = () => {
                           $29.99 <span>/Monthly</span>
                         </h2>
                         <div className="button mt-10">
-                          <select className="wide">
+                          <select title="Basic plan monthly pricing" className="wide">
                             <option value={1}>$49.99 - Monthly</option>
                           </select>
                           <a className="theme-btn34" href="pricing.html">
@@ -117,7 +114,7 @@ const PricingPlan2 = () => {
                           $49.99 <span>/Monthly</span>
                         </h2>
                         <div className="button mt-10">
-                          <select className="wide">
+                          <select title="Pro plan monthly pricing" className="wide">
                             <option value={1}>$49.99 - Monthly</option>
                           </select>
                           <a className="theme-btn34" href="pricing.html">
@@ -208,7 +205,7 @@ const PricingPlan2 = () => {
                           $69.99 <span>/Monthly</span>
                         </h2>
                         <div className="button mt-10">
-                          <select className="wide">
+                          <select title="Basic plan monthly pricing" className="wide">
                             <option value={1}>$69.99 - Monthly</option>
                           </select>
                           <a className="theme-btn34" href="pricing.html">
