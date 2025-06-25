@@ -1,5 +1,5 @@
 
-import Footer1 from '@/components/Footer/Footer1'
+import Footer2 from '@/components/Footer/Footer2'
 import Hero from '@/components/Hero'
 
 import TopBanner from '@/components/TopNav/TopBanner'
@@ -23,7 +23,7 @@ const DetailRight = () => {
         <Blog />
         <MoreBlog />
       </main>
-      <Footer1 />
+      <Footer2 />
     </>
   )
 }

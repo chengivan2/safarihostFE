@@ -2,7 +2,7 @@
 import Count from '@/components/Count'
 import CTA from '@/components/CTA'
 import Faq from '@/components/Faq'
-import Footer1 from '@/components/Footer/Footer1'
+import Footer2 from '@/components/Footer/Footer2'
 import Hosting from '@/components/Hosting'
 
 import Testimonial from '@/components/Testimonial'
@@ -35,7 +35,7 @@ const Shared = () => {
                 <Faq/>
                 <CTA/>
             </main>
-            <Footer1/>
+            <Footer2/>
         </>
     )
 }

@@ -1,5 +1,5 @@
 import CTA from '@/components/CTA'
-import Footer1 from '@/components/Footer/Footer1'
+import Footer2 from '@/components/Footer/Footer2'
 
 import TopBanner from '@/components/TopNav/TopBanner'
 import TopNavBar1 from '@/components/TopNav/TopNavBar1'
@@ -24,7 +24,7 @@ const Pricing = () => {
         <DomainName />
         <CTA />
       </main>
-      <Footer1 />
+      <Footer2 />
     </>
   )
 }
