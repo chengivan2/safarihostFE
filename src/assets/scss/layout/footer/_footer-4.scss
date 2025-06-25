@@ -1,0 +1,43 @@
+@use '../../utils/' as * ;
+
+/*
+::::::::::::::::::::::::::
+ FOOTER AREA 4 CSS
+::::::::::::::::::::::::::
+*/
+
+.vl-footer-subscribe4 {
+    form {
+        margin-top: 30px;
+        input {
+            padding: 21px;
+            border-radius: 111px;
+            border: none;
+            background-color: var(--vtc-bg-white);
+            width: 100%;
+
+            &:focus {
+                outline: none;
+            }
+            &::placeholder {
+                color: var(--vtc-text-pera1);
+                font-size: var(--f-fs-font-16);
+                font-style: normal;
+                font-weight: var(--f-fw-normal);
+                line-height: var(--f-fs-font-16); /* 100% */
+            }
+        }
+        .button {
+            position: absolute;
+            top: 5px;
+            right: 5px;
+        }
+    }
+}
+
+
+/*
+::::::::::::::::::::::::::
+ FOOTER AREA 4 CSS
+::::::::::::::::::::::::::
+*/

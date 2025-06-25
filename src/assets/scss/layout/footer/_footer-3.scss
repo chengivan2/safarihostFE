@@ -1,0 +1,151 @@
+@use '../../utils/' as * ;
+
+/*
+::::::::::::::::::::::::::
+ FOOTER AREA 1 CSS
+::::::::::::::::::::::::::
+*/
+
+.vl-footer-area3 {
+    padding-top: 80px;
+}
+
+.vl-copyright3 {
+    padding: 16px 0px;
+    &._dv-top {
+        border-top: 1px solid var(--vtc-border-1);
+    }
+
+    .payment-options {
+        text-align: end;
+        a {
+            display: inline-block;
+            margin-left: 3px;
+            transition: all .4s;
+
+            &:hover {
+                transition: all .4s;
+                transform: scale(0.9);
+            }
+        }
+    }
+
+    p {
+        color: var(--vtc-text-title3);
+        font-size: var(--f-fs-font-16);
+        font-style: normal;
+        font-weight: var(--f-fw-normal);
+        line-height: var(--f-fs-font-16); /* 100% */
+    }
+}
+
+.vl-footer-social3 {
+    a {
+        display: inline-block;
+        height: 44px;
+        width: 44px;
+        text-align: center;
+        line-height: 44px;
+        border-radius: 50%;
+        background-color: var(--vtc-bg-white);
+        color: var(--vtc-text-title1);
+        font-size: var(--f-fs-font-18);
+        margin-right: 4px;
+        transition: all .4s;
+        position: relative;
+        z-index: 2;
+
+        &::after {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 0;
+            height: 100%;
+            width: 100%;
+            border-radius: 50%;
+            z-index: -1;
+            background: var(--vtc-bg-main5);
+            opacity: 0;
+            transition: all .4s;
+        }
+
+        &:hover {
+            transition: all .4s;
+            transform: translateY(-5px);
+            color: var(--vtc-bg-white);
+
+            &::after {
+                transition: all .4s;
+                opacity: 1;
+            }
+        }
+    }
+}
+
+.vl-footer-widget3 {
+    h4 {
+        color: var(--vtc-text-title3);
+        font-size: var(--f-fs-font-24);
+        font-style: normal;
+        font-weight: var(--f-fw-medium);
+        line-height: var(--f-fs-font-24); /* 100% */
+        margin-bottom: 24px;
+    }
+    .vl-footer-list {
+        ul {
+            li {
+                a {
+                    display: inline-block;
+                    color: var(--vtc-text-title3);
+                    font-size: var(--f-fs-font-16);
+                    font-style: normal;
+                    font-weight: var(--f-fw-normal);
+                    line-height: var(--f-fs-font-16); /* 100% */
+                    padding-bottom: 20px;
+                    transition: all .4s;
+
+                    &:hover {
+                        transition: all .4s;
+                        transform: translateX(5px);
+                        color: var(--vtc-bg-main5);
+                    }
+                }
+            }
+        }
+    }
+}
+
+.vl-footer-subscribe3 {
+    form {
+        margin-top: 30px;
+        input {
+            padding: 21px;
+            border-radius: 8px;
+            border: none;
+            background-color: var(--vtc-bg-white);
+            width: 100%;
+
+            &:focus {
+                outline: none;
+            }
+            &::placeholder {
+                color: var(--vtc-text-pera1);
+                font-size: var(--f-fs-font-16);
+                font-style: normal;
+                font-weight: var(--f-fw-normal);
+                line-height: var(--f-fs-font-16); /* 100% */
+            }
+        }
+        .button {
+            position: absolute;
+            top: 5px;
+            right: 5px;
+        }
+    }
+}
+
+/*
+::::::::::::::::::::::::::
+ FOOTER AREA 1 CSS
+::::::::::::::::::::::::::
+*/

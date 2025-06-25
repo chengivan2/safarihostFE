@@ -1,0 +1,173 @@
+@use '../../utils/' as * ;
+
+
+/*
+::::::::::::::::::::::::::
+ BLOG SIDEBAR AREA CSS
+::::::::::::::::::::::::::
+*/
+
+.details-sidebar {
+    position: sticky;
+    top: 120px;
+    left: 0;
+    ._sidebar-widget {
+        background-color: var(--vtc-bg-common-2);
+        border-radius: 8px;
+        padding: 28px 24px;
+        h3 {
+            color: var(--vtc-text-title3);
+            font-size: var(--f-fs-font-24);
+            font-style: normal;
+            font-weight: var(--f-fw-semibold);
+            line-height: var(--f-fs-font-24); /* 100% */
+            margin-bottom: 24px;
+        }
+
+        ._search-form {
+            position: relative;
+            input {
+                padding: 18px;
+                border-radius: 8px;
+                border: none;
+                width: 100%;
+
+                &:focus {
+                    outline: none;
+                }
+                &::placeholder {
+                    color: var(--vtc-text-title3);
+                    font-size: var(--f-fs-font-16);
+                    font-style: normal;
+                    font-weight: var(--f-fw-normal);
+                    line-height: var(--f-fs-font-16); /* 100% */
+                }
+            }
+            button {
+                color: var(--vtc-text-title3);
+                font-size: var(--f-fs-font-18);
+                background: none;
+                border: none;
+                position: absolute;
+                right: 16px;
+                top: 17px;
+            }
+        }
+
+        ._category-list {
+            padding-top: 8px;
+            ul {
+                li {
+                    a {
+                        display: inline-flex;
+                        justify-content: space-between;
+                        background-color: var(--vtc-bg-white);
+                        border-radius: 8px;
+                        padding: 20px;
+                        width: 100%;
+                        color: var(--vtc-text-title4);
+                        font-size: var(--f-fs-font-18);
+                        font-style: normal;
+                        font-weight: var(--f-fw-semibold);
+                        line-height: var(--f-fs-font-18); /* 100% */
+                        text-transform: uppercase;
+                        transition: all .4s;
+
+                        &:hover {
+                            transition: all .4s;
+                            background-color: var(--vtc-bg-main2);
+                            color: var(--vtc-bg-white);
+                        }
+                    }
+                    margin-bottom: 18px;
+
+                    &:nth-last-child(1) {
+                        margin-bottom: 0;
+                    }
+                }
+            }
+        }
+        ._tags-area {
+            ul {
+                li {
+                    display: inline-block;
+                    a {
+                        color: var(--vtc-text-title4);
+                        font-size: var(--f-fs-font-16);
+                        font-style: normal;
+                        font-weight: var(--f-fw-medium);
+                        line-height: var(--f-fs-font-16); /* 100% */
+                        padding: 12px 16px;
+                        border-radius: 8px;
+                        background-color: var(--vtc-bg-white);
+                        display: inline-block;
+                        margin: 7px 7px 7px 0;
+                        transition: all .4s;
+
+                        &:hover {
+                            transition: all .4s;
+                            background-color: var(--vtc-bg-main2);
+                            color: var(--vtc-bg-white);
+                        }
+                    }
+                }
+            }
+        }
+        ._recent-post-box {
+            .recent-post-single {
+                display: flex;
+                align-items: center;
+                margin-bottom: 20px;
+                &:nth-last-child(1) {
+                    margin-bottom: 0px;
+                }
+                .image {
+                    width: 120px;
+                    img {
+                        width: 100%;
+                    }
+                }
+                .content {
+                    padding-left: 16px;
+
+                    h5 {
+                        a {
+                            color: var(--vtc-text-title3);
+                            font-size: var(--f-fs-font-16);
+                            font-style: normal;
+                            font-weight: var(--f-fw-semibold);
+                            line-height: var(--f-fs-font-22); /* 137.5% */
+                            display: inline-block;
+                            padding-top: 10px;
+                            transition: all .4s;
+
+                            &:hover {
+                                transition: all .4s;
+                                color: var(--vtc-bg-main2);
+                            }
+                        }
+                    }
+                    .date {
+                        display: inline-block;
+                        color: var(--vtc-text-pera1);
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: var(--f-fw-medium);
+                        line-height: 14px; /* 100% */
+
+                        img {
+                            transform: translateY(-3px);
+                            margin-right: 5px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/*
+::::::::::::::::::::::::::
+ BLOG SIDEBAR AREA CSS
+::::::::::::::::::::::::::
+*/

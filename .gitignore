@@ -1,0 +1,39 @@
+# Gitignore template for Next.js projects
+
+# Dependencies
+/node_modules
+
+# Next.js build output
+/.next/
+/out/ # If using static export
+
+# Production build output (if applicable)
+/build/
+
+# Environment variables
+.env
+.env*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Editor directories and files
+.idea/
+.vscode/
+*.swp
+*.bak
+*.swo
+
+# macOS
+.DS_Store
+
+# Thumbnails
+Thumbs.db
+
+# Other common ignored files
+/dist/
+/coverage/
+/temp/

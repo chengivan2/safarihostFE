@@ -1,0 +1,446 @@
+@use '../utils' as *;
+
+  /*
+ ::::::::::::::::::::::::::
+  CTA AREA CSS
+ ::::::::::::::::::::::::::
+ */
+
+
+//=====  cta style 1 ====
+
+ .cta1 {
+  .cta1-form-area {
+    form {
+      margin-top: 30px;
+      input {
+          padding: 20px;
+          border-radius: 111px;
+          border: none;
+          background-color: var(--vtc-bg-white);
+          width: 100%;
+
+          &:focus {
+              outline: none;
+          }
+          &::placeholder {
+              color: var(--vtc-text-pera1);
+              font-size: var(--f-fs-font-16);
+              font-style: normal;
+              font-weight: var(--f-fw-normal);
+              line-height: var(--f-fs-font-16); /* 100% */
+          }
+      }
+      .button {
+          position: absolute;
+          top: 5px;
+          right: 5px;
+      }
+    }
+   }
+
+   .bg-area {
+    border-radius: 16px;
+    position: relative;
+    .heading1-w {
+      padding: 60px 0px 60px 80px;
+
+      @media #{$md} {
+        padding: 30px;
+      }
+      @media #{$xs} {
+        padding: 30px;
+      }
+    }
+   }
+
+   .cta1-boxs-area {
+    height: 350px;
+
+    @media #{$xs} {
+      height: 550px;
+    }
+
+    .cta1-box {
+      height: 270px;
+      width: 270px;
+      border-radius: 50%;
+      border: 1px solid var(--vtc-bg-white10per);
+      background-color: var(--vtc-bg-white10per);
+      display: flex;
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+      p {
+        border: 1px solid var(--vtc-bg-white10per);
+        background-color: var(--vtc-bg-white10per);
+        border-radius: 8px;
+        padding: 6px 10px;
+        color: var(--vtc-text-white80per);
+        font-size: var(--f-fs-font-16);
+        font-style: normal;
+        font-weight: var(--f-fw-normal);
+        line-height: var(--f-fs-font-16); /* 100% */
+        display: inline-block;
+      }
+      h3 {
+        color: var(--Home-Page-2-Main-Color, #FFC106);
+        font-size: 56px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 60px; /* 107.143% */
+        padding: 16px 0px;
+      }
+
+      &.box1 {
+        position: absolute;
+        left: 120px;
+        top: -15px;
+
+        @media #{$md} {
+          left: 60px;
+        }
+
+        @media #{$xs} {
+          left: 60px;
+        }
+      }
+      &.box2 {
+        position: absolute;
+        right: 60px;
+        bottom: -15px;
+
+        @media #{$xs} {
+          bottom: 15px;
+        }
+      }
+    }
+   }
+ }
+
+ //=====  cta style 1 ====
+
+ //=====  cta style 2 ====
+
+ .cta2 {
+  margin-bottom: -160px;
+  position: relative;
+  z-index: 2;
+  .bg-area {
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+    overflow: hidden;
+
+    .cta2-form-area {
+      position: relative;
+      margin-top: 32px;
+      margin-right: 80px;
+      input {
+        padding: 21px;
+        border-radius: 8px;
+        border: none;
+        background-color: var(--vtc-bg-white);
+        width: 100%;
+
+        &:focus {
+            outline: none;
+        }
+        &::placeholder {
+            color: var(--vtc-text-pera1);
+            font-size: var(--f-fs-font-16);
+            font-style: normal;
+            font-weight: var(--f-fw-normal);
+            line-height: var(--f-fs-font-16); /* 100% */
+        }
+      }
+
+      .button {
+        position: absolute;
+        top: 5px;
+        right: 5px;
+      }
+    }
+
+    .heading1-w {
+      padding: 60px;
+    }
+  }
+
+  .cta2-images {
+    text-align: end;
+    margin-right: 120px;
+    position: relative;
+
+    .image {
+      margin-top: 20px;
+      margin-bottom: 20px;
+      position: relative;
+      z-index: 2;
+    }
+    .shape {
+      position: absolute;
+      top: 0;
+      right: -30px;
+    }
+  }
+ }
+
+ //=====  cta style 2 ====
+
+ //=====  cta style 3 ====
+
+ .cta3-form-area {
+  position: relative;
+  margin-top: 30px;
+  margin-right: 30px;
+  input {
+    width: 100%;
+    border-radius: 8px;
+    border: none;
+    padding: 21px;
+
+    &:focus {
+        outline: none;
+    }
+    &::placeholder {
+        color: var(--vtc-text-pera2);
+        font-size: var(--f-fs-font-18);
+        font-style: normal;
+        font-weight: var(--f-fw-medium);
+        line-height: var(--f-fs-font-18); /* 100% */
+    }
+}
+
+  .button {
+      position: absolute;
+      top: 5px;
+      right: 5px;
+  }
+ }
+
+ //=====  cta style 3 ====
+
+
+//=====  cta style 4 ====
+
+  .cta4 {
+    margin-bottom: -160px;
+    position: relative;
+    z-index: 2;
+    .bg-area {
+      background-position: center top;
+      background-repeat: no-repeat;
+      background-size: cover;
+      border-radius: 8px;
+      overflow: hidden;
+  
+      .cta4-form-area {
+        position: relative;
+        margin-top: 32px;
+        margin-right: 80px;
+        @media #{$xs} {
+          margin-right: 0;
+        }
+        input {
+          padding: 21px;
+          border-radius: 111px;
+          border: none;
+          background-color: var(--vtc-bg-white);
+          width: 100%;
+  
+          &:focus {
+              outline: none;
+          }
+          &::placeholder {
+              color: var(--vtc-text-pera1);
+              font-size: var(--f-fs-font-16);
+              font-style: normal;
+              font-weight: var(--f-fw-normal);
+              line-height: var(--f-fs-font-16); /* 100% */
+          }
+        }
+  
+        .button {
+          position: absolute;
+          top: 5px;
+          right: 5px;
+        }
+      }
+  
+      .heading1-w {
+        padding: 60px;
+
+        @media #{$xs} {
+          padding: 30px;
+        }
+      }
+    }
+  
+    .cta4-images {
+      text-align: end;
+      margin-right: 120px;
+      position: relative;
+      @media #{$xs} {
+        margin-right: 30px;
+        margin-left: 10px;
+      }
+  
+      .image {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        position: relative;
+        z-index: 2;
+      }
+      .shape {
+        position: absolute;
+        top: 0;
+        right: -30px;
+      }
+    }
+   }
+  
+   //=====  cta style 4 ====
+
+   //=====  cta style 5 ====
+
+   .cta5 {
+    .bg-area {
+      background: var(--vtc-bg-main13);
+      padding: 60px;
+      border-radius: 16px;
+      position: relative;
+
+      @media #{$xs} {
+        padding: 24px;
+      }
+    }
+
+    .cta5-images {
+      text-align: end;
+      @media #{$md} {
+        margin-top: 40px;
+      }
+      @media #{$xs} {
+        margin-top: 40px;
+      }
+      .shape {
+        position: absolute;
+        bottom: 0;
+        right: 100px;
+      }
+      .image {
+        margin-right: 100px;
+        position: relative;
+        z-index: 3;
+      }
+    }
+   }
+
+  //=====  cta style 5 ====
+
+  //=====  cta style 6 ====
+
+  .cta6 {
+    background-color: var(--vtc-bg-main15);
+  }
+
+  .cta6-iamges {
+    height: 390px;
+    position: relative;
+    text-align: end;
+    z-index: 2;
+
+    .bg-shape {
+      position: absolute;
+      right: 0;
+      top: 0;
+      z-index: -1;
+    }
+
+    .image {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+    }
+  }
+
+  //=====  cta style 6 ====
+
+  //=====  cta style 7 ====
+
+  .cta7 {
+    padding: 60px 0px;
+    background-color: var(--vtc-bg-main16);
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
+
+    .shape {
+      position: absolute;
+      top: 0;
+      left: 50%;
+      margin-left: -235px;
+      z-index: -1;
+    }
+  }
+
+  //=====  cta style 7 ====
+
+  //=====  cta style 8 ====
+
+  .cta8 {
+    background-color: var(--vtc-bg-main17);
+    position: relative;
+  }
+
+  
+  .cta8-iamges {
+    height: 350px;
+    position: relative;
+    text-align: end;
+    z-index: 2;
+    padding-bottom: 20px;
+
+    .bg-shape {
+      position: absolute;
+      right: 0;
+      top: 0;
+      z-index: -1;
+    }
+
+    .image {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+    }
+  }
+  
+  //=====  cta style 8 ====
+
+   //=====  cta style 10 ====
+
+   .cta10 {
+    padding: 60px 0px;
+    background-color: var(--vtc-bg-main18);
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
+
+    .shape {
+      position: absolute;
+      top: 0;
+      left: 50%;
+      margin-left: -235px;
+      z-index: -1;
+    }
+  }
+
+  //=====  cta style 10 ====
+
+/*
+ ::::::::::::::::::::::::::
+  CTA AREA CSS
+ ::::::::::::::::::::::::::
+ */

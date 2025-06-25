@@ -1,0 +1,253 @@
+@use '../../utils/' as * ;
+
+  /*
+ ::::::::::::::::::::::::::
+  CHOOSE AREA CSS
+ ::::::::::::::::::::::::::
+ */
+
+//====  choose style 5 ====
+
+.choose5-box {
+  margin: 0px 40px;
+  transition: all .4s;
+  position: relative;
+  .icon {
+    height: 90px;
+    width: 90px;
+    text-align: center;
+    line-height: 90px;
+    border-radius: 50%;
+    margin: auto;
+    position: relative;
+    z-index: 2;
+
+    &::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      background: var(--vtc-bg-main14);
+      border-radius: 50%;
+      z-index: -1;
+      transition: all .4s;
+    }
+
+    img {
+      transition: all .4s;
+    }
+  }
+  &:hover {
+    transition: all .4s;
+    transform: translateY(-10px);
+    .icon {
+      &::after {
+        background: var(--vtc-bg-main10);
+        transition: all .4s;
+      }
+      img {
+        transition: all .4s;
+        transform: rotateY(180deg);
+      }
+    }
+  }
+
+  .arrow-shape1 {
+    position: absolute;
+    top: 30px;
+    right: -130px;
+
+    @media #{$md} {
+      display: none;
+    }
+
+    @media #{$xs} {
+      display: none;
+    }
+  }
+}
+
+.choose5 {
+  z-index: 2;
+  .sec-shape {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+}
+ 
+//====  choose style 5 ====
+
+//====  choose style 6 ====
+
+.choose6-box {
+  margin: 0px 40px;
+  transition: all .4s;
+  position: relative;
+  .icon {
+    height: 90px;
+    width: 90px;
+    text-align: center;
+    line-height: 90px;
+    border-radius: 50%;
+    margin: auto;
+    position: relative;
+    z-index: 2;
+
+    &::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      background: var(--vtc-bg-white10per);
+      border-radius: 50%;
+      border: 1px solid var(--vtc-bg-white10per);
+      z-index: -1;
+      transition: all .4s;
+    }
+
+    img {
+      transition: all .4s;
+    }
+  }
+  &:hover {
+    transition: all .4s;
+    transform: translateY(-10px);
+    .icon {
+      &::after {
+        background: var(--vtc-bg-main18);
+        transition: all .4s;
+      }
+      img {
+        transition: all .4s;
+        transform: rotateY(180deg);
+      }
+    }
+  }
+
+  .arrow-shape1 {
+    position: absolute;
+    top: 30px;
+    right: -130px;
+
+    img {
+      filter: brightness(0) invert(1);
+    }
+
+    @media #{$md} {
+      display: none;
+    }
+
+    @media #{$xs} {
+      display: none;
+    }
+  }
+}
+
+.choose6-icon-list {
+  padding-top: 10px;
+  ul {
+    li {
+      color: var(--6th-Text, #0A0A0A);
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 20px; /* 100% */
+      text-transform: capitalize;
+      display: flex;
+      align-items: center;
+      margin-top: 16px;
+
+      .check {
+        display: inline-block;
+        height: 20px;
+        width: 20px;
+        text-align: center;
+        font-size: 12px;
+        background-color: var(--vtc-bg-main15);
+        border-radius: 50%;
+        line-height: 20px;
+        color: var(--vtc-text-white);
+        margin-right: 6px;
+        
+      }
+    }
+  }
+}
+
+.choose6-images {
+  height: 540px;
+  position: relative;
+  text-align: end;
+  z-index: 2;
+
+  .shape-bg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+  }
+}
+
+//====  choose style 6 ====
+
+//====  choose style 7 ====
+
+.choose7-box {
+  border: 1px solid var(--vtc-bg-white10per);
+  background-color: var(--vtc-bg-white10per);
+  padding: 24px 16px;
+  border-radius: 8px;
+  display: flex;
+  align-items: start;
+  transition: all .4s;
+
+  .icon {
+    height: 88px;
+    width: 88px;
+    text-align: center;
+    line-height: 88px;
+    border: 1px solid var(--vtc-bg-white10per);
+    border-radius: 50%;
+    background-color: var(--vtc-bg-white10per);
+  }
+  .content {
+    padding-left: 20px;
+  }
+
+  &:hover {
+    transition: all .4s;
+    transform: translateY(-10px);
+    border: 1px solid var(--vtc-bg-main16);
+  }
+}
+
+.choose7-images {
+  text-align: end;
+  height: 630px;
+  position: relative;
+
+  .image {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+  }
+
+  .bg-shape {
+    transform: translateY(50px);
+  }
+}
+
+//====  choose style 7 ====
+
+/*
+ ::::::::::::::::::::::::::
+  CHOOSE AREA CSS
+ ::::::::::::::::::::::::::
+ */

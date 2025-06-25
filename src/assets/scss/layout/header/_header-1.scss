@@ -1,0 +1,140 @@
+@use '../../utils/' as * ;
+
+/*
+::::::::::::::::::::::::::
+ HEADER AREA 1 CSS
+::::::::::::::::::::::::::
+*/
+
+.header1-top {
+    background-color: var(--vtc-bg-white10per);
+    padding: 16px 0px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 3;
+
+    .header-top-contact {
+        display: flex;
+        align-items: center;
+        .text {
+            a, p {
+                display: inline-block;
+                color: var(--vtc-text-white);
+                font-size: var(--f-fs-font-16);
+                font-style: normal;
+                font-weight: var(--f-fw-normal);
+                line-height: var(--f-fs-font-16); /* 100% */
+            }
+        }
+        .icon {
+            img {
+                margin-top: -2px;
+                margin-right: 4px;
+            }
+        }
+    }
+
+    .header-top2-contacts {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+    }
+}
+.header-contact-wedget {
+    a {
+        position: relative;
+
+        img {
+            transform: translateY(-2px);
+        }
+      &:nth-last-child(1) {
+        &::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: -19px;
+            height: 20px;
+            width: 2px;
+            background-color: var(--vtc-border-1);
+        }
+      }
+    }
+}
+
+.header-tranperent {
+    position: absolute;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+}
+
+.header-contact-wedget {
+    text-align: end;
+}
+
+@media screen and (min-width: 769px) {
+    .header1-bg {
+        padding: 10px 0px;
+        border-radius: 0px 0px 8px 8px;
+        position: relative;
+        z-index: 999;
+        margin-top: 16px;
+    }
+}
+
+    .vl-header1-right {
+        text-align: end;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+
+        .search-open-btn {
+            background: none;
+            border: none;
+            font-size: var(--f-fs-font-20);
+            margin-right: 36px;
+            position: relative;
+
+            &::after {
+                content: "";
+                position: absolute;
+                top: 5px;
+                right: -16px;
+                height: 20px;
+                width: 2px;
+                background-color: var(--vtc-border-1);
+            }
+        }
+    }
+
+    .header1-logo-white {
+            display: none;
+            display: none;
+    }
+
+    .dark-mode {
+        .header1-logo-white {
+            @media #{$md} {
+                display: inline-block;
+            }
+            @media #{$xs} {
+                display: inline-block;
+            }
+        }
+        .header1-logo-block {
+            @media #{$md} {
+                display: none;
+            }
+            @media #{$xs} {
+                display: none;
+            }
+        }
+    }
+
+
+/*
+::::::::::::::::::::::::::
+ HEADER AREA 1 CSS
+::::::::::::::::::::::::::
+*/
