@@ -5,7 +5,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { Col, Container, Row } from 'react-bootstrap'
 import { FaArrowRight } from 'react-icons/fa'
-import { FaBarsStaggered, FaChevronDown } from 'react-icons/fa6'
+import { FaBarsStaggered } from 'react-icons/fa6'
 import MobilMenu from '../MobilMenu'
 import ServicesMenu from './AppMenu/ServicesMenu'
 

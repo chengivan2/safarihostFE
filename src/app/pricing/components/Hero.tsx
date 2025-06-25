@@ -1,13 +1,15 @@
-import BgImg from '@/assets/img/bg/inner-hero1-bg.jpeg'
-import hero1 from '@/assets/img/images/inner-hero-image1.png'
-import shape from '@/assets/img/shapes/inner-hero-shape.png'
-import Image from 'next/image'
-import { FaAngleRight } from 'react-icons/fa6'
+import BgImg from "@/assets/img/bg/inner-hero1-bg.jpeg";
+import hero1 from "@/assets/img/images/inner-hero-image1.png";
+import shape from "@/assets/img/shapes/inner-hero-shape.png";
+import Image from "next/image";
 
 const Hero = () => {
   return (
     <>
-      <div className="inner-hero1 pt-60" style={{ backgroundImage: `url(${BgImg.src})` }}>
+      <div
+        className="inner-hero1 pt-60"
+        style={{ backgroundImage: `url(${BgImg.src})` }}
+      >
         <div className="container">
           <div className="row align-items-center">
             <div className="col-md-5">
@@ -27,7 +29,7 @@ const Hero = () => {
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default Hero
+export default Hero;
