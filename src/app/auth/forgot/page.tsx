@@ -1,4 +1,4 @@
-import Bg from '@/assets/img/bg/login-bg.jpg'
+import Bg from '@/assets/img/bg/login-bg.png'
 import Logo from '@/assets/img/logo/header-logo1.png'
 
 import { Metadata } from 'next'
