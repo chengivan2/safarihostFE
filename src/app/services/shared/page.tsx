@@ -14,10 +14,7 @@ import Features from './components/Features'
 import Hero from './components/Hero'
 
 export const metadata: Metadata = {
-    title: 'SafariHost- Web Hosting',
-    icons: {
-        icon: logo.src,
-    },
+    title: 'SafariHost - Reliable & Affordable Hosting',
 }
 const Shared = () => {
     return (
