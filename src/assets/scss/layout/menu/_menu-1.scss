@@ -41,7 +41,7 @@
                 }
 
                 &>a {
-                    color: var(--vtc-text-white);
+                    color: var(--vtc-text-black);
                     font-size: var(--f-fs-font-18);
                     line-height: var(--f-fs-font-18);
                     display: inline-block;
@@ -395,7 +395,7 @@
         top: 0;
         -webkit-animation: .7s ease-in-out 0s normal none 1 running vlfadeInDown;
         animation: .7s ease-in-out 0s normal none 1 running vlfadeInDown;
-        background-color: var(--vtc-bg-main2);
+        background-color: var(--vtc-bg-white);
 
         .header1-bg {
             margin-top: 0px;

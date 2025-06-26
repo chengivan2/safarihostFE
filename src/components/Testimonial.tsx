@@ -1,7 +1,6 @@
 "use client";
 import { testimonials } from "@/assets/data/other";
 import Noise from "@/assets/img/bg/noise-bg1.jpg";
-import Shape from "@/assets/img/shapes/service1-shape1.png";
 import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
@@ -151,7 +150,6 @@ const Testimonial = () => {
             </Col>
           </Row>
         </Container>
-        <Image src={Shape} alt="" className="shape1" />
       </div>
   );
 };
