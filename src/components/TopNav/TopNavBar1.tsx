@@ -28,9 +28,9 @@ const TopNavBar1 = () => {
                 </div>
               </Col>
               <Col lg={7} className="d-none d-lg-block text-end">
-                <div className="vl-main-menu">
-                  <nav className="vl-mobile-menu-active">
-                    <ul>
+                <div className="vl-main-menu text-black">
+                  <nav className="vl-mobile-menu-active text-black">
+                    <ul className='text-black'>
                       <li>
                         <Link href="/">
                           Home

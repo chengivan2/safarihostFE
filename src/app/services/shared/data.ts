@@ -13,7 +13,7 @@ export type BoxAreaType = {
 export const box: BoxAreaType[] = [
   {
     image: Icon1,
-    title: ' Safe And Secured',
+    title: 'Safe And Secured',
   },
   {
     image: Icon2,
